@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Salvin Devtale | 3D Artist Portfolio</title>
+<style>
+body {
+margin: 0;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background: #0f0c29; /* Deep space gradient */
+background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+color: #f0f0f0;
+}
+header {
+background-color: #ff4e50;
+padding: 1rem 2rem;
+text-align: center;
+}
+header h1 {
+margin: 0;
+color: #fff;
+font-size: 2rem;
+}
+nav {
+display: flex;
+justify-content: center;
+gap: 2rem;
+background-color: #fc913a;
+padding: 1rem;
+}
+nav a {
+color: white;
+text-decoration: none;
+font-weight: bold;
+}
+section {
+padding: 2rem;
+}
+h2 {
+color: #ffcc70;
+}
+.gallery {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+gap: 1rem;
+}
+.gallery img {
+width: 100%;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+}
+footer {
+background-color: #fc913a;
+text-align: center;
+padding: 1rem;
+color: white;
+}
+</style>
+</head>
+<body>
+<header>
+<h1>Salvin Devtale - 3D Artist</h1>
+</header>
+<nav>
+<a href="#about">About Me</a>
+<a href="#services">Services</a>
+<a href="#gallery">Gallery</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+<h2>About Me</h2>
+<p>Hi, I'm Salvin Devtale, a passionate 3D artist who brings imagination to life with vivid visuals and compelling designs. I specialize in modeling, texturing, lighting, and creating high-quality renders for games, film, and digital art.</p>
+</section>
+
+<section id="services">
+<h2>Services</h2>
+<ul>
+<li>3D Modeling & Sculpting</li>
+<li>Texturing & UV Mapping</li>
+<li>Lighting & Rendering</li>
+<li>Game Asset Creation</li>
+<li>Product Visualization</li>
+</ul>
+</section>
+
+<section id="gallery">
+<h2>Gallery</h2>
+<div class="gallery">
+<!-- Replace these with your image URLs -->
+<img src="your-art-1.jpg" alt="3D Art 1">
+<img src="your-art-2.jpg" alt="3D Art 2">
+<img src="your-art-3.jpg" alt="3D Art 3">
+</div>
+</section>
+
+<section id="contact">
+<h2>Contact Details</h2>
+<p>Email: <a href="mailto:salvin@example.com">salvin@example.com</a></p>
+<p>Phone: +91-9876543210</p>
+<p>Instagram: <a href="https://instagram.com/salvindevtale" target="_blank">@salvindevtale</a></p>
+</section>
+
+<footer>
+<p>&copy; 2025 Salvin Devtale. All rights reserved.</p>
+</footer>
+</body>
+</html>
